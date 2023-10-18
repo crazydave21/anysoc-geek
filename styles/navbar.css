@@ -1,0 +1,131 @@
+.nav-bar {
+  width: 100vw;
+  display: flex;
+  background-color: #2f3d40;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+  position: fixed;
+}
+
+.nav-bar .logo {
+  margin: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.nav-bar .logo-heading {
+  margin: 5px 0px;
+  padding: 5px;
+  color: #ffffff;
+  font-family: Poppins;
+}
+
+.nav-bar .nav-links ul {
+  list-style-type: none;
+  margin: 5px;
+  padding: 5px;
+}
+
+.nav-bar .nav-links ul li {
+  display: inline;
+}
+
+.nav-bar .nav-links ul li a {
+  font-family: Poppins;
+  font-weight: 300;
+  color: #cfcfcf;
+  text-decoration: none;
+  line-height: 30px;
+  margin-left: 25px;
+}
+
+.nav-bar .nav-links ul li a:hover {
+  color: #ffffff;
+}
+
+.nav-bar .menu-btn {
+  margin: 5px;
+  cursor: pointer;
+  padding: 5px;
+  display: none;
+  width: 25px;
+  flex-direction: column;
+  position: absolute;
+  right: 15px;
+}
+
+.nav-bar .menu-btn .line-1 {
+  padding: 3px;
+  border-bottom: 3px solid #cfcfcf;
+}
+
+.nav-bar .menu-btn .line-2 {
+  padding: 3px;
+  border-bottom: 3px solid #cfcfcf;
+}
+
+.nav-bar .menu-btn .line-3 {
+  padding: 3px;
+
+  border-bottom: 3px solid #cfcfcf;
+}
+
+.nav-bar .menu-btn:hover * {
+  border-color: #ffffff;
+}
+
+.nav-bar .menu-links {
+  display: inline;
+  width: 280px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  height: 100vh;
+  background-color: #ffffff;
+  position: fixed;
+  transform: translateX(350px);
+  transition-property: transform;
+  transition-duration: 0.2s;
+}
+
+.nav-bar .menu-links ul {
+  list-style-type: none;
+}
+
+.nav-bar .menu-links ul li a {
+  font-family: Poppins;
+  text-decoration: none;
+  color: #2f3d40;
+}
+
+.nav-bar .menu-links ul li {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.nav-bar .menu-links ul li a:hover {
+  color: #cfcfcf;
+}
+
+.nav-bar .menu-close-btn {
+  cursor: pointer;
+  display: flex;
+  width: 35px;
+  position: absolute;
+  flex-direction: column;
+  left: -45px;
+  top: 5px;
+  background-color: #ffffff;
+  border-radius: 40px;
+}
+
+.nav-bar .menu-close-btn .cross {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  transform: rotate(45deg);
+}
+
+.nav-bar .menu-close-btn:hover {
+  color: #cfcfcf;
+}

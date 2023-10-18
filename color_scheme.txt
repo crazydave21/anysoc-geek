@@ -1,0 +1,5 @@
+Space cadet - 34, 46, 80  #222E50
+Cerulean - 0, 121, 145  #007991
+Zomp - 67, 154, 134  #439A86
+Celadon - 188, 216, 193 #BCD8C1 black
+Flax - 233, 217, 133 #E9D985 black
