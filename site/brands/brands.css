@@ -50,41 +50,6 @@ body {
   color: #2f3d40;
 }
 
-.content-card-1 {
-  margin-top: 15px;
-  background-color: #ffffff;
-  padding: 5px;
-  border-radius: 10px;
-}
-
-.content-card-1 p {
-  margin-top: 10px;
-}
-
-.content-card-2,
-.content-card-3 {
-  margin-top: 15px;
-  background-color: #ffffff;
-  padding: 5px;
-  border-radius: 10px;
-  overflow-x: auto;
-}
-
-.table {
-  margin: 10px;
-  border-collapse: collapse;
-}
-
-.table th,
-td {
-  text-align: left;
-  padding: 8px;
-}
-
-/* .table tr:nth-child(odd) {
-  background-color: #cfcfcf;
-} */
-
 .footer-container {
   margin-top: 15px;
   padding: 5px;
@@ -106,25 +71,37 @@ td {
   color: #ffffff;
 }
 
+.brand-lists {
+    margin-top: 15px;
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: justify;
+  }
+  
+  .brand-lists h3 {
+    margin-top: 10px;
+  }
+  
+  .brand-lists p {
+    margin-top: 10px;
+  }
+
+  .brand-lists img {
+    float: right;
+    margin: 10px;
+    max-width: 92px;
+    max-height: 92px;
+  }
+
 @media screen and (max-width: 600px) {
   .main .nav-bar .nav-links {
     display: none;
   }
 
-  .main .nav-bar {
-    justify-content: center;
-  }
-
   .main .nav-bar .menu-btn {
     display: flex;
   }
-
-  /* .breadcrum-navbar {
-    display: none;
-  } */
-  /* .main .nav-bar .menu-links.active {
-    display: inline;
-  } */
 }
 
 @media screen and (min-width: 600px) {
@@ -133,12 +110,6 @@ td {
     flex-direction: column;
     margin-left: 15vw;
     width: 70vw;
-  }
-
-  .desktop-view .table {
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .breadcrum-navbar {
