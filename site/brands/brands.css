@@ -50,6 +50,35 @@ body {
   color: #2f3d40;
 }
 
+.brand-lists * {
+  margin-top: 15px;
+  background-color: #ffffff;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.brand-lists h1 {
+  margin-top: auto;
+}
+
+.brand-lists h3 {
+  margin-top: 10px;
+}
+
+.brand-lists p {
+  margin-top: 10px;
+}
+
+.brand-lists img {
+  float: right;
+  margin: 10px;
+  max-width: 92px;
+  max-height: 92px;
+  padding: 8px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
 .footer-container {
   margin-top: 15px;
   padding: 5px;
@@ -70,29 +99,6 @@ body {
 .footer-container ul li a:hover {
   color: #ffffff;
 }
-
-.brand-lists {
-    margin-top: 15px;
-    background-color: #ffffff;
-    padding: 5px;
-    border-radius: 10px;
-    text-align: justify;
-  }
-  
-  .brand-lists h3 {
-    margin-top: 10px;
-  }
-  
-  .brand-lists p {
-    margin-top: 10px;
-  }
-
-  .brand-lists img {
-    float: right;
-    margin: 10px;
-    max-width: 92px;
-    max-height: 92px;
-  }
 
 @media screen and (max-width: 600px) {
   .main .nav-bar .nav-links {
